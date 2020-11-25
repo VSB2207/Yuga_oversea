@@ -33,76 +33,82 @@
   </head>
   <body>
    
-      <header>
+   <header>
       <!--? Header Start -->
       <div class="header-area">
         <div class="main-header header-sticky bg-white">
           <div class="container-fluid">
             <div class="row align-items-center">
               <!-- Logo -->
-              <div class="col-xl-2 col-lg-2 col-md-1">
+              <div class="col-xl-2 col-lg-2 col-md-2">
                 <div class="">
                   <a href="index.html"
                     ><img class="w-75" src="assets/img/logo/logo.png" alt=""
                   /></a>
                 </div>
               </div>
-              <div class="col-xl-10 col-lg-10 col-md-10">
+              
+              <div
+                class="col-xl-10 col-lg-10  col-md-10 align-items-right"
+                style="float: right"
+              >
                 <div
-                  class="menu-main d-flex align-items-center justify-content-end"
+                  class="menu-main  align-items-right justify-content-end"
                 >
                   <!-- Main-menu -->
                   <div class="main-menu f-right d-none d-lg-block">
-                    <nav>
-                      <ul id="navigation">
-                          <li>    </li>
+                    <nav style="float: right">
+                      <ul id="navigation" style="float: right">
+                        <li></li>
                         <li><a class="text-dark" href="index.html">Home</a></li>
-                        
-                        <li>
-                          <a class="text-dark" href="contact.html"
-                            >Contact Us</a
-                          >
-                        </li>
+
                         <li>
                           <a class="text-dark" href="our-team.html">Our Team</a>
                         </li>
                         <li>
                           <a class="text-dark">Bags</a>
                           <ul class="submenu">
-                            <li><a href="laptop-bags.html">Laptop Bags</a></li>
-                            <li><a href="school-bags.html">School Bags</a></li>
+                            <li>
+                              <a href="anti-bacterial.html"
+                                >Antibacterial Bags</a
+                              >
+                            </li>
+                            <li>
+                              <a href="school-bags.html">Backpack Bags</a>
+                            </li>
+                            <li>
+                              <a href="duffle-bags.html">Duffle Bags</a>
+                            </li>
+                            <li><a href="gym-bags.html">Gym Bags</a></li>
+
+                            <li><a href="laptop-bags.html">Laptop bags</a></li>
+                            <li>
+                              <a href="messenger-bags.html">Leather Pu Bag</a>
+                            </li>
+                            <li><a href="travel-bags.html">Travell Bag</a></li>
                             <li>
                               <a href="trolley-bags.html">Trolley Bags</a>
                             </li>
-                            <li><a href="duffle-bags.html">Duffle Bags</a></li>
-
-                            <li><a href="travel-bags.html">Travel Bags</a></li>
-                            <li>
-                              <a href="messenger-bags.html">Messenger Bags</a>
-                            </li>
-                            <li><a href="gym-bags.html">Gym Bags</a></li>
-                            <li>
-                              <a href="anti-bacterial.html"
-                                >Anti-Bactreial Bags</a
-                              >
-                            </li>
                           </ul>
                         </li>
-                        <li>
-                          <a class="text-dark" href="contact.html">Contact</a>
+                          <li>
+                          <a class="text-dark" href="contact.html">Contact US</a>
                         </li>
+                       
                       </ul>
                     </nav>
                   </div>
+<!--
                   <div class="header-right-btn f-right d-none d-lg-block ml-20">
                     <a href="contact.html" class="btn header-btn"
-                      >Contact now</a
+                      >Contact Us</a
                     >
                   </div>
+-->
                 </div>
               </div>
               <!-- Mobile Menu -->
-              <div class="col-12">
+              <div  class="navbar-toggler" data-toggle="collapse">
                 <div class="mobile_menu d-block d-lg-none"></div>
               </div>
             </div>
@@ -111,7 +117,7 @@
       </div>
       <!-- Header End -->
     </header>
-    <!-- Page info -->
+      <!-- Page info -->
     <div class="page-top-info">
       <div class="container">
         <h4>Gym Bags</h4>
@@ -127,143 +133,44 @@
     <section class="product-section">
       <div class="container">
         <div class="back-link">
-          <a href="./index.html"> &lt;&lt; Back to Home</a>
+          <a href="index.html"> &lt;&lt; Back to Home</a>
+         
+         
         </div>
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="product-pic-zoom">
-              <img
-                class="product-big-img"
-                src="./img/product/gym1.jpg"
-                alt=""
-              />
+        <h4 class="p-title" style="color: darkblue; text-align: center;" >Gym Bags</h4>
+       
+        <div class="row justify-content-center">
+          <div id="bag-c" class="col-lg-7" >
+                 
+            <div class="img-container row justify-content-center align-items-center">
+                <i class="img-arrow left" onclick="moveImg(-1)"></i>
+                <img id="imageBox1" class="m-auto" style="height: 500px; width: 376px;" src="./assets/img/product/GYMBAG/GYMBAG1.jpeg">
+                <i class="img-arrow right" onclick="moveImg(1)"></i>
             </div>
-          </div>
-          <div class="col-lg-6 product-details">
-            <h2 class="p-title">Gym Bags</h2>
-            <h4 class="p-stock">Available: <span>In Stock</span></h4>
-            <!-- <div class="fw-size-choose">
-              <p>Size</p>
-              <div class="sc-item">
-                <input type="radio" name="sc" id="xs-size" />
-                <label for="xs-size">32</label>
-              </div>
-              <div class="sc-item">
-                <input type="radio" name="sc" id="s-size" />
-                <label for="s-size">34</label>
-              </div>
-              <div class="sc-item">
-                <input type="radio" name="sc" id="m-size" checked="" />
-                <label for="m-size">36</label>
-              </div>
-              <div class="sc-item">
-                <input type="radio" name="sc" id="l-size" />
-                <label for="l-size">38</label>
-              </div>
-              <div class="sc-item disable">
-                <input type="radio" name="sc" id="xl-size" disabled />
-                <label for="xl-size">40</label>
-              </div>
-              <div class="sc-item">
-                <input type="radio" name="sc" id="xxl-size" />
-                <label for="xxl-size">42</label>
-              </div>
-            </div>
-            <div class="quantity">
-              <p>Quantity</p>
-              <div class="pro-qty"><input type="text" value="1" /></div>
-            </div> -->
-              <div class="hero__btn">
-                      <a
-                        href="./contact.html"
-                        class="btn hero-btn"
-                        data-animation="fadeInLeft"
-                        data-delay=".8s"
-                        >PLACE ORDER NOW</a>
-                    </div>
-<!--            <a href="./contact.html" class="site-btn">PLACE ORDER NOW</a>-->
-            <div id="accordion" class="accordion-area">
-              <div class="panel">
-                <div class="panel-header" id="headingOne">
-                  <button
-                    class="panel-link active"
-                    data-toggle="collapse"
-                    data-target="#collapse1"
-                    aria-expanded="true"
-                    aria-controls="collapse1"
-                  >
-                    Information & Features
-                  </button>
-                </div>
-                <div
-                  id="collapse1"
-                  class="collapse show"
-                  aria-labelledby="headingOne"
-                  data-parent="#accordion"
-                >
-                  <div class="panel-body">
-                    <p>
-                      <strong>Material and Design</strong>: Gym bag is made of
-                      high quality,durable material. An amazing and trendy
-                      design which will look awesome in your hands.
-                    </p>
-                    <p>
-                      <strong>Seperate Shoe Compartment</strong>: Built-in extra
-                      shoes compartment with exterior zippers to keep your shoes
-                      and clean sport gears separate.
-                    </p>
+                
+                <p class="text-center" id="imgtext">GB01</p>
+				
+                <div class="product-small-img">
+                 <div class="row">
+                 <img src="./assets/img/product/GYMBAG/GYMBAG1.jpeg" class="pro-alt-img" alt="GB-01" onclick="showmyimage(this)">
+                 <img src="./assets/img/product/GYMBAG/GYMBAG2.jpeg" class="pro-alt-img" alt="GB-02" onclick="showmyimage(this)">                 
+                 <img src="./assets/img/product/GYMBAG/GYMBAG3.jpeg" class="pro-alt-img" alt="GB-03"onclick="showmyimage(this)">
 
-                    <p>
-                      <strong>Adjustable Shoulder straps</strong>: Comfortable
-                      and adjustable shoulder strap
-                    </p>
-                    <p>
-                      <strong>Abundance of Storage</strong>: Large capacity,meet
-                      your requirement for sure and keep your stuff in order.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="panel">
-                <div class="panel-header" id="headingThree">
-                  <button
-                    class="panel-link"
-                    data-toggle="collapse"
-                    data-target="#collapse3"
-                    aria-expanded="false"
-                    aria-controls="collapse3"
-                  >
-                    shipping & Returns
-                  </button>
-                </div>
-                <div
-                  id="collapse3"
-                  class="collapse"
-                  aria-labelledby="headingThree"
-                  data-parent="#accordion"
-                >
-                  <div class="panel-body">
-                    <h4>7 Days Returns</h4>
-                    <p>
-                      Cash on Delivery Available<br />Home Delivery
-                      <span>3 - 4 days</span>
-                    </p>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Proin pharetra tempor so dales. Phasellus sagittis auctor
-                      gravida. Integer bibendum sodales arcu id te mpus. Ut
-                      consectetur lacus leo, non scelerisque nulla euismod nec.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+                 <img src="./assets/img/product/GYMBAG/GYMBAG4.jpeg" class="pro-alt-img" alt="GB-04"onclick="showmyimage(this)">
+                 <img src="./assets/img/product/GYMBAG/GYMBAG5.jpeg" class="pro-alt-img" alt="GB-05"onclick="showmyimage(this)">
+                 <img src="./assets/img/product/GYMBAG/GYMBAG6.jpeg" class="pro-alt-img" alt="GB-06"onclick="showmyimage(this)">
+           
+              
+             </div>
+			 
+             </div>
+			 
+              
           </div>
+           
+            </div>
         </div>
-      </div>
-    </section>
-    <!-- product section end -->
+      </section>     <!-- product section end -->
 
     <!-- RELATED PRODUCTS section -->
     <section class="related-product-section">
@@ -300,6 +207,7 @@
               <p class='text-center'>Black Orange Duffle Bag</p>
             </div>
           </div>
+<!--
           <div class="product-item">
             <div class="pi-pic">
               <img src="./img/product/school2.jpg" alt="" />
@@ -314,6 +222,7 @@
               <p class="text-center">School Bag</p>
             </div>
           </div>
+-->
 
           <div class="product-item">
             <div class="pi-pic">
@@ -350,16 +259,14 @@
     <!-- RELATED PRODUCTS section end -->
 
     <!-- Footer section -->
-    <section class="footer-section">
+         <section class="footer-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-sm-6">
             <div class="footer-widget about-widget">
               <h2>About Us</h2>
               <p>
-                Donec vitae purus nunc. Morbi faucibus erat sit amet congue
-                mattis. Nullam frin-gilla faucibus urna, id dapibus erat iaculis
-                ut. Integer ac sem.
+                “YUGA PLUS OVERSEAS PVT LTD Merchandise (YOPL) is among the first few professional company of India to organize the bags & luggage industry. 
               </p>
               <img src="img/cards.png" alt="" />
             </div>
@@ -369,11 +276,11 @@
               <h2>Contact Details</h2>
               <div class="con-info">
                 <span><i class="fa fa-industry"></i></span>
-                <p>Yuga Overseas Pvt. Ltd.</p>
+                <p>YUGAOVERSEAS PVT LTD</p>
               </div>
               <div class="con-info">
                 <span><i class="fa fa-home"></i></span>
-                <p>Satoda road halol GIDC dist. Panchmahal, Vadodara, Gujarat, India</p>
+                <p>246/1, Opp old weight bridge, Baska, Ta. Halol, Dist PMS, 389350 Gujarat</p>
               </div>
               <div class="con-info">
                 <span><i class="fa fa-phone"></i></span>
@@ -392,40 +299,44 @@
         </div>
       </div>
       <div class="social-links-warp">
-        <div class="container">
-          <div class="social-links">
-            <a href="" class="instagram"
+        <div class="container ">
+          <div class="social-links align-text-center" style="text-align: center">
+            <a href="https://instagram.com/yugaoverseas?r=nametag" class="instagram"
               ><i class="fa fa-instagram"></i><span>instagram</span></a
             >
-            <a href="" class="google-plus"
+            <a href="www.overseasyuga@gmail.com" class="google-plus"
               ><i class="fa fa-envelope"></i><span>g-mail</span></a
             >
+<!--
             <a href="" class="pinterest"
               ><i class="fa fa-pinterest"></i><span>pinterest</span></a
             >
-            <a href="" class="facebook"
+-->
+            <a href="https://www.facebook.com/Yuga-Overseas-Pvt-Ltd-106719861166122/" class="facebook"
               ><i class="fa fa-facebook"></i><span>facebook</span></a
             >
             <a href="" class="twitter"
               ><i class="fa fa-twitter"></i><span>twitter</span></a
             >
+<!--
             <a href="" class="youtube"
               ><i class="fa fa-youtube"></i><span>youtube</span></a
             >
             <a href="" class="tumblr"
               ><i class="fa fa-tumblr-square"></i><span>tumblr</span></a
             >
+-->
           </div>
 
           <p class="text-white text-center mt-5">
-            Copyright &copy;2020 All rights reserved | This website is made with
+            Copyright &copy;2020 All rights reserved | This website is made 
             <i class="fa fa-heart-o" aria-hidden="true"></i> by
             <a href="https://www.androiders.in/" target="_blank">Androiders</a>
           </p>
         </div>
       </div>
     </section>
-    <!-- Footer section end -->
+  <!-- Footer section end -->
 
     <!--====== Javascripts & Jquery ======-->
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -436,5 +347,35 @@
     <script src="js/jquery.zoom.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/main.js"></script>
+      
+       <script>
+      var imgIndex = 0
+      function moveImg(dir) {
+        var imgList = document.getElementsByClassName('pro-alt-img')
+        var fullImg = document.getElementById("imageBox1");
+        var len = imgList.length
+        imgIndex = imgIndex + dir
+        if (imgIndex >= len) {
+          imgIndex = 0
+        }
+        if (imgIndex < 0) {
+          imgIndex = len -1
+        }
+        var targetImg = imgList[imgIndex]
+        fullImg.src=targetImg.src;
+		  
+        var imgText = document.getElementById("imgtext");
+        imgText.innerHTML = targetImg.alt;
+      }
+      function showmyimage(smallImg){
+          
+          var fullImg = document.getElementById("imageBox1");
+          fullImg.src=smallImg.src;
+		  
+		  var imgText = document.getElementById("imgtext");
+		  imgText.innerHTML = smallImg.alt;
+          
+      }
+      </script>
   </body>
 </html>

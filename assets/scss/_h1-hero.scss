@@ -38,6 +38,7 @@
 }
 
 .slider-area{
+        margin-top: 150px;
     .hero__caption{
         @media #{$sm}{
             padding-top: 100px;
@@ -46,6 +47,7 @@
             padding-top: 100px;
         }
         span{
+            margin-top:150px;
             font-size: 24px;
             line-height: 1.2;
             font-weight: 300;
@@ -61,6 +63,7 @@
                 font-size: 16px;
             }
             &::before {
+                    margin-top: 150px;
                     position: absolute;
                     content: "";
                     width: 30px;

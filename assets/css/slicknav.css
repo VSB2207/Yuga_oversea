@@ -1,14 +1,10 @@
-/*!
- * SlickNav Responsive Mobile Menu v1.0.10
- * (c) 2016 Josh Cope
- * licensed under MIT
- */
+
 .slicknav_btn {
   position: relative;
   display: block;
   vertical-align: middle;
   float: right;
-  padding: 0.438em 0.625em 0.438em 0.625em;
+  
   line-height: 1.125em;
   cursor: pointer; }
   .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
@@ -170,7 +166,7 @@
 	background-color: transparent;
 	cursor: pointer;
 	margin-bottom: 10px;
-	margin-top: -35px;
+	margin-top: -1035px;
 	position: relative;
 	z-index: 99;
 }
@@ -237,7 +233,7 @@
 	z-index: 99;
 	border: none;
 	border-radius: 3px;
-	top: -23px;
+	top: -53px;
 	padding: 5px;
 	right: 5px;
 	margin-top: -5px;

@@ -112,6 +112,48 @@ ol {
   color: #fff;
 }
 
+
+
+/*---------------------
+  product page
+-----------------------*/
+/* buttons */
+.product-small-img img{
+    height: 50px;
+    margin:10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: 0.6;
+    max-width: 80%; 
+}
+.product-small-img img:hover{
+    opacity: 1;
+}
+
+.product-small-img{
+    float: left;
+}
+/*
+.product{
+    
+    position: absolute;
+}
+*/
+.img-container img{
+    height: 500px;
+    padding: 20px;
+    max-width: 80%;
+}
+img-container{
+    float: right;
+    padding: 10px;
+}
+
+
+
+
+
+
 /*---------------------
   Commom elements
 -----------------------*/
@@ -844,7 +886,7 @@ pi-pic img{
   display: inline-table;
   width: 36px;
   height: 36px;
-  background: #fff;
+  background: rgb(1,23,80);
   border-radius: 60px;
   font-size: 18px;
   line-height: 18px;

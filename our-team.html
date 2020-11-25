@@ -6,6 +6,7 @@
     <meta name="description" content=" Divisima | eCommerce Template" />
     <meta name="keywords" content="divisima, eCommerce, creative, html" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="shortcut icon" />
 
@@ -14,7 +15,9 @@
       href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,700,700i"
       rel="stylesheet"
     />
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
@@ -66,76 +69,82 @@
   </head>
   <body>
   
-    <header>
+     <header>
       <!--? Header Start -->
       <div class="header-area">
         <div class="main-header header-sticky bg-white">
           <div class="container-fluid">
             <div class="row align-items-center">
               <!-- Logo -->
-              <div class="col-xl-2 col-lg-2 col-md-1">
+              <div class="col-xl-2 col-lg-2 col-md-2">
                 <div class="">
                   <a href="index.html"
                     ><img class="w-75" src="assets/img/logo/logo.png" alt=""
                   /></a>
                 </div>
               </div>
-              <div class="col-xl-10 col-lg-10 col-md-10">
+              
+              <div
+                class="col-xl-10 col-lg-10  col-md-10 align-items-right"
+                style="float: right"
+              >
                 <div
-                  class="menu-main d-flex align-items-center justify-content-end"
+                  class="menu-main  align-items-right justify-content-end"
                 >
                   <!-- Main-menu -->
                   <div class="main-menu f-right d-none d-lg-block">
-                    <nav>
-                      <ul id="navigation">
-                          <li>    </li>
+                    <nav style="float: right">
+                      <ul id="navigation" style="float: right">
+                        <li></li>
                         <li><a class="text-dark" href="index.html">Home</a></li>
-                        
-                        <li>
-                          <a class="text-dark" href="contact.html"
-                            >Contact Us</a
-                          >
-                        </li>
+
                         <li>
                           <a class="text-dark" href="our-team.html">Our Team</a>
                         </li>
                         <li>
                           <a class="text-dark">Bags</a>
                           <ul class="submenu">
-                            <li><a href="laptop-bags.html">Laptop Bags</a></li>
-                            <li><a href="school-bags.html">School Bags</a></li>
+                            <li>
+                              <a href="anti-bacterial.html"
+                                >Antibacterial Bags</a
+                              >
+                            </li>
+                            <li>
+                              <a href="school-bags.html">Backpack Bags</a>
+                            </li>
+                            <li>
+                              <a href="duffle-bags.html">Duffle Bags</a>
+                            </li>
+                            <li><a href="gym-bags.html">Gym Bags</a></li>
+
+                            <li><a href="laptop-bags.html">Laptop bags</a></li>
+                            <li>
+                              <a href="messenger-bags.html">Leather Pu Bag</a>
+                            </li>
+                            <li><a href="travel-bags.html">Travell Bag</a></li>
                             <li>
                               <a href="trolley-bags.html">Trolley Bags</a>
                             </li>
-                            <li><a href="duffle-bags.html">Duffle Bags</a></li>
-
-                            <li><a href="travel-bags.html">Travel Bags</a></li>
-                            <li>
-                              <a href="messenger-bags.html">Messenger Bags</a>
-                            </li>
-                            <li><a href="gym-bags.html">Gym Bags</a></li>
-                            <li>
-                              <a href="anti-bacterial.html"
-                                >Anti-Bactreial Bags</a
-                              >
-                            </li>
                           </ul>
                         </li>
-                        <li>
-                          <a class="text-dark" href="contact.html">Contact</a>
+                          <li>
+                          <a class="text-dark" href="contact.html">Contact US</a>
                         </li>
+                       
                       </ul>
                     </nav>
                   </div>
+<!--
                   <div class="header-right-btn f-right d-none d-lg-block ml-20">
                     <a href="contact.html" class="btn header-btn"
-                      >Contact now</a
+                      >Contact Us</a
                     >
                   </div>
+-->
                 </div>
               </div>
               <!-- Mobile Menu -->
-              <div class="col-12">
+              <div  class="navbar-toggler" data-toggle="collapse">
                 <div class="mobile_menu d-block d-lg-none"></div>
               </div>
             </div>
@@ -144,7 +153,7 @@
       </div>
       <!-- Header End -->
     </header>
-    <!-- Header section end -->
+   <!-- Header section end -->
 
     <!-- Page info -->
     <div class="page-top-info">
@@ -159,95 +168,153 @@
     <!-- Page info end -->
 
     <!-- Our Team Section  -->
-    <div class="container our-team">
-      <div class="row">
-        <div class="col-lg-3 col-sm-6">
-          <div class="product-item">
-            <div class="pi-pic">
-              <img src="./img/product/1.jpg" alt="" />
+      
+      
+      <section>
+          <br><br><br><br><br><br>
+            <div class="container" style="text-align: center">
+                <div class="row align-items-center">
+                    <div class="col-xl-5 col-lg-5 col-md-5">
+                        <!-- about-img -->
+                        <div class="about-img ">
+                            <img src="../yuga/assets/img/gallery/Homepage_testi.png" alt="" style="max-width: 50%">
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-5">
+                        <div class="about-caption mb-50">
+                            
+                            <!-- Section Tittle -->
+                            <div class="section-tittle mb-25">
+                                <p  style=" font-size:26px; font-weight:700; font-style: bold; color: black; letter-spacing: .2em;text-transform: uppercase; line-height: 1.1em;">ASHUTOSH</p>
+                            </div>
+                            <p class="mb-20">
+                               well AS has experience of more than a decade in the industry. he has served many global brands and delivered his services to industry . he has expertise for execution of all production work of converting inputs into outputs as per luggage buyer’s instructions and thus making value additions. he delivers goods on designated shipment date. estimate costs and prepare budgets according to product and delivers the values addition goods . no one can challenge or beat his machine layout plan and preproduction activities. he always ensures discipline in the floor. he takes care of workers safety and welfare. he makes best efforts to create congenial work environment what is called “win-win situation”.
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <hr>
             </div>
-            <div class="pi-text">
-              <p class="text-center">ASHUTOSH SACHAN</p>
-              <!-- <p>Flamboyant Pink Top</p> -->
+        </section>
+      
+      
+      
+       <section>
+            <br><br><br><br><br><br>
+            <div class="container" style="text-align: center">
+                <div class="row align-items-center">
+                    <div class="col-xl-5 col-lg-5 col-md-5">
+                        <!-- about-img -->
+                        <div class="about-img ">
+                            <img src="../yuga/assets/img/gallery/Homepage_testi.png" alt="" style="max-width: 50%">
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-5">
+                        <div class="about-caption mb-50">
+                            
+                            <!-- Section Tittle -->
+                            <div class="section-tittle mb-25">
+                                <p  style=" font-size:26px; font-weight:700; font-style: bold; color: black; letter-spacing: .2em;text-transform: uppercase; line-height: 1.1em;">ANIKET</p>
+                            </div>
+                            <p class="mb-20">
+                              A young dynamic gentleman - is still a bachelor guy with 24 year good looking smart personality . he has expertise in dealing with worlds number one company of luggage . he understand and delivers the global requirement of client . He has full on energy to work on floor with dedication and discipline. He understand the value products and have great knowledge of e commerce . He is very active in social media and ecommerce platform that’s what we call him SS as a ecomm expert !!
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <hr>
             </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-sm-6">
-          <div class="product-item">
-            <div class="pi-pic">
-              <img src="./img/product/1.jpg" alt="" />
+        </section>
+      
+       <section>
+            <br><br><br><br><br><br>
+            <div class="container" style="text-align: center">
+                <div class="row align-items-center">
+                    <div class="col-xl-5 col-lg-5 col-md-5">
+                        <!-- about-img -->
+                        <div class="about-img ">
+                            <img src="../yuga/assets/img/gallery/Homepage_testi.png" alt="" style="max-width: 50%">
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-5">
+                        <div class="about-caption mb-50">
+                            
+                            <!-- Section Tittle -->
+                            <div class="section-tittle mb-25">
+                                <p  style=" font-size:26px; font-weight:700; font-style: bold; color: black; letter-spacing: .2em;text-transform: uppercase; line-height: 1.1em;">ROHIT</p>
+                            </div>
+                            <p class="mb-20">
+                               He is charming guy with full on knowledge of operations and data management. his very good network always add on to company worth . He works on “Speaks less listen more” theory which is always helpful to build a theory of operations and success. He has good experience of inventory management also have been serving luggage industry since 4 year. He is capable enough to run an empire solely. He is expertise in managing activities that are part of the production of goods and services. His direct responsibilities include managing the operations process, embracing design, planning, control, performance improvement, and operations strategy.
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <hr>
             </div>
-            <div class="pi-text">
-              <p class="text-center">GAURAV JAIN</p>
-              <!-- <p>Flamboyant Pink Top</p> -->
+        </section>
+      
+       <section>
+            <br><br><br><br><br><br>
+            <div class="container" style="text-align: center">
+                <div class="row align-items-center">
+                    <div class="col-xl-5 col-lg-5 col-md-5">
+                        <!-- about-img -->
+                        <div class="about-img ">
+                            <img src="../yuga/assets/img/gallery/Homepage_testi.png" alt="" style="max-width: 50%">
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-5">
+                        <div class="about-caption mb-50">
+                            
+                            <!-- Section Tittle -->
+                            <div class="section-tittle mb-25">
+                                <p  style=" font-size:26px; font-weight:700; font-style: bold; color: black; letter-spacing: .2em;text-transform: uppercase; line-height: 1.1em;">NIKHIL</p>
+                            </div>
+                            <p class="mb-20">
+                              He always says “Either run the day or the day runs you.” One of the most energetic guy we can call as Ferrari in our industry He set sales strategy, align the sales structure with the strategy, manage people and implement process. It's to lead and manage the operational elements of sales. He has very good experience in banking sector and and heading senior manager in leading bank with responsibility of managing more than 200 zones and 100 plus team member. He loves travelling and self driving that what a sales profile wants.. He Understand the competitive landscape and market trends , he can Determine annual unit and gross-profit plans by implementing marketing strategies; analyzing trends and results. He is expert in Create strong relationships with key client at both senior and mid-management levels. He can maintain sales staff by recruiting, selecting, orienting and training employees. As well as counseling and disciplining employees; planning, monitoring and appraising job results
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                
             </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-sm-6">
-          <div class="product-item">
-            <div class="pi-pic">
-              <img src="./img/product/1.jpg" alt="" />
-            </div>
-            <div class="pi-text">
-              <p class="text-center">NIKHIL SHARMA</p>
-              <!-- <p>Flamboyant Pink Top</p> -->
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-sm-6">
-          <div class="product-item">
-            <div class="pi-pic">
-              <img src="./img/product/1.jpg" alt="" />
-            </div>
-            <div class="pi-text">
-              <p class="text-center">ROHIT Y SHARMA</p>
-              <!-- <p>Flamboyant Pink Top</p> -->
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-sm-6">
-          <div class="product-item">
-            <div class="pi-pic">
-              <img src="./img/product/1.jpg" alt="" />
-            </div>
-            <div class="pi-text">
-              <p class="text-center">SRIYANK U SINGH</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        </section>
+      
+      
+      
+      
+      
+      
+      
     <!-- Our Team end -->
 
     <!-- Footer section -->
-    <section class="footer-section">
+         <section class="footer-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-sm-6">
             <div class="footer-widget about-widget">
               <h2>About Us</h2>
               <p>
-                Donec vitae purus nunc. Morbi faucibus erat sit amet congue
-                mattis. Nullam frin-gilla faucibus urna, id dapibus erat iaculis
-                ut. Integer ac sem.
+                “YUGA PLUS OVERSEAS PVT LTD Merchandise (YOPL) is among the first few professional company of India to organize the bags & luggage industry. 
               </p>
               <img src="img/cards.png" alt="" />
             </div>
           </div>
-         <div class="col-lg-6 col-sm-6">
+          <div class="col-lg-6 col-sm-6">
             <div class="footer-widget contact-widget">
               <h2>Contact Details</h2>
               <div class="con-info">
                 <span><i class="fa fa-industry"></i></span>
-                <p>Yuga Overseas Pvt. Ltd.</p>
+                <p>YUGAOVERSEAS PVT LTD</p>
               </div>
               <div class="con-info">
                 <span><i class="fa fa-home"></i></span>
-                <p>Satoda road halol GIDC dist. Panchmahal, Vadodara, Gujarat, India</p>
+                <p>246/1, Opp old weight bridge, Baska, Ta. Halol, Dist PMS, 389350 Gujarat</p>
               </div>
               <div class="con-info">
                 <span><i class="fa fa-phone"></i></span>
@@ -263,42 +330,47 @@
               </div>
             </div>
           </div>
-          </div>
+        </div>
       </div>
       <div class="social-links-warp">
-        <div class="container">
-          <div class="social-links">
-            <a href="" class="instagram"
+        <div class="container ">
+          <div class="social-links align-text-center" style="text-align: center">
+            <a href="https://instagram.com/yugaoverseas?r=nametag" class="instagram"
               ><i class="fa fa-instagram"></i><span>instagram</span></a
             >
-            <a href="" class="google-plus"
+            <a href="www.overseasyuga@gmail.com" class="google-plus"
               ><i class="fa fa-envelope"></i><span>g-mail</span></a
             >
+<!--
             <a href="" class="pinterest"
               ><i class="fa fa-pinterest"></i><span>pinterest</span></a
             >
-            <a href="" class="facebook"
+-->
+            <a href="https://www.facebook.com/Yuga-Overseas-Pvt-Ltd-106719861166122/" class="facebook"
               ><i class="fa fa-facebook"></i><span>facebook</span></a
             >
             <a href="" class="twitter"
               ><i class="fa fa-twitter"></i><span>twitter</span></a
             >
+<!--
             <a href="" class="youtube"
               ><i class="fa fa-youtube"></i><span>youtube</span></a
             >
             <a href="" class="tumblr"
               ><i class="fa fa-tumblr-square"></i><span>tumblr</span></a
             >
+-->
           </div>
 
           <p class="text-white text-center mt-5">
-            Copyright &copy;2020 All rights reserved | This website is made with
+            Copyright &copy;2020 All rights reserved | This website is made 
             <i class="fa fa-heart-o" aria-hidden="true"></i> by
             <a href="https://www.androiders.in/" target="_blank">Androiders</a>
           </p>
         </div>
       </div>
     </section>
+  
     <!-- Footer section end -->
 
     <!--====== Javascripts & Jquery ======-->
